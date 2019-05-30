@@ -48,4 +48,4 @@ chmod +x lambda_checker.py
 ```
 ./lambda_checker.py -f <LAMBDA_FUNCTION_NAME>
 ```
-![image1]({{ site.baseurl }}/image01.PNG)
+![Image01](/image01.PNG)
