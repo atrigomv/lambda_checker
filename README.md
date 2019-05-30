@@ -48,4 +48,6 @@ chmod +x lambda_checker.py
 ```
 ./lambda_checker.py -f <LAMBDA_FUNCTION_NAME>
 ```
+
+### Output
 ![Image01](/image01.PNG)
