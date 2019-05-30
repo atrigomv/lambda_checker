@@ -1,7 +1,7 @@
 # Lambda Checker
 
 ### Introduction
-Lambda Checker is a simple script tool, based on official AWS Boto3 Python SDK, which executes some security checks to detect misconfigurations issues on Lambda functions. The tool has been developed in order to be automated within CI/CD pipelines or to be executed on demand. In addition to security configuration checks, if the function is written in Python it performs additional security checks such as hardcoded credentials checks, use of assertion clauses and so on. Here is the list with the checks done by the tool:
+Lambda Checker is a simple Python script, based on official AWS Boto3 Python SDK, which executes some security checks to detect misconfigurations issues on Lambda functions. The tool has been developed in order to be automated within CI/CD pipelines or to be executed on demand. In addition to security configuration checks, if the function is written in Python it performs additional security checks such as hardcoded credentials checks, use of assertion clauses and so on. Here is the list with the checks done by the tool:
 
 * Configuration issues:
   * _Detection of AWS EU region use_
