@@ -34,8 +34,10 @@ To execute the tool it is necessary to cover the steps below:
 ```
 pip install boto3
 ```
-* Install [AWS CLI](https://aws.amazon.com/cli/?nc1=h_ls) and configure it with the access key and the secret access key of the user previously created
-* Install AWS CLI
+* Install [AWS CLI](https://aws.amazon.com/cli/?nc1=h_ls) and configure it with the access key and the secret access key of the user previously created:
+```
+pip install awscli
+```
 * Put execution permissions:
 ```
 chmod +x lambda_checker.py
