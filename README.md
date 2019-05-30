@@ -24,7 +24,7 @@ The results are shown as CSV report and command-line. The use of this tool is co
 ### Installation and environment configuration
 In order to install the tool, you can clone the git repository or download the Python script:
 ```
-https://github.com/atrigomv/lambda_checker.git
+git clone git://github.com/atrigomv/lambda_checker.git
 ```
 To execute the tool it is necessary to cover the steps below:
 * Download the tool
