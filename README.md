@@ -37,6 +37,7 @@ pip install boto3
 * Install [AWS CLI](https://aws.amazon.com/cli/?nc1=h_ls) and configure it with the access key and the secret access key of the user previously created:
 ```
 pip install awscli
+aws configure
 ```
 * Put execution permissions:
 ```
