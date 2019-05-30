@@ -14,10 +14,10 @@ Lambda Checker is a simple Python script, based on official AWS Boto3 Python SDK
   * _Hardcoded credentials_
   * _Hardcoded directories_
   * _Use of insecure libraries_
-  * _Use of insecure ciphers used_
-  * _Use of insecure algorithms used_
+  * _Use of insecure ciphers_
+  * _Use of insecure algorithms_
   * _Use of assertion clauses_
-  * _OS Command execution (manual check required if it is detected)_
+  * _OS Command execution detection (manual check required if it is detected)_
 
 The results are shown as CSV report and command-line and they are classified as "Info", "Low", "Medium" or "High" risk severity. The use of this tool is complementary to the use of others and it is highly recommended the use of pure SAST solutions which can gives widest results.
 
