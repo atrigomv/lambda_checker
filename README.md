@@ -19,7 +19,7 @@ Lambda Checker is a simple script tool, based on official AWS Boto3 Python SDK, 
   * _Use of assertion clauses_
   * _OS Command execution (manual check required if it is detected)_
 
-The results are shown as CSV report and command-line. The use of this tool is complementary to the use of others and it is highly recommended the use of pure SAST solutions too which can gives widest results.
+The results are shown as CSV report and command-line and they are classified as "Info", "Low", "Medium" or "High" risk severity. The use of this tool is complementary to the use of others and it is highly recommended the use of pure SAST solutions too which can gives widest results.
 
 ### Installation and environment configuration
 In order to install the tool, you can clone the git repository or download the [Python script](https://github.com/atrigomv/lambda_checker/blob/master/lambda_checker.py):
