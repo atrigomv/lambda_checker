@@ -28,7 +28,7 @@ git clone git://github.com/atrigomv/lambda_checker.git
 ```
 To execute the tool it is necessary to cover the steps below:
 * Download the tool
-* Create a programmatic user in AWS with fullaccess permissions into Lambda
+* Create a programmatic user in AWS account in which Lambda functions are storaged. The permissions of this user are described below.
 * Install Python
 * Install [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html) for Python:
 ```
@@ -44,6 +44,31 @@ aws configure
 chmod +x lambda_checker.py
 ```
 * Enjoy ;)
+
+### Permissions of the AWS user
+#### Basic usage
+If you chose the easy way, it is enough if the programmatic user has the next policies selected: AWSLambdaFullAccess and IAMFullAccess.
+#### Policy ad-hoc (recommended)
+In order to give the exact permissions to the script, it is needed to create a new policy with the next statement:
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetPolicyVersion",
+                "lambda:ListFunctions",
+                "iam:ListPolicyVersions",
+                "lambda:GetFunction",
+                "iam:ListAttachedRolePolicies"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
 
 ### Basic usage
 ```
