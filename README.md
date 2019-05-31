@@ -28,7 +28,7 @@ git clone git://github.com/atrigomv/lambda_checker.git
 ```
 To execute the tool it is necessary to cover the steps below:
 * Download the tool
-* Create a programmatic user in AWS account in which Lambda functions are storaged. The permissions of this user are described below.
+* Create a programmatic user in AWS account in which Lambda functions are storaged. The [permissions](https://github.com/atrigomv/lambda_checker/blob/master/README.md#permissions-of-the-aws-user) of this user are described below.
 * Install Python
 * Install [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html) for Python:
 ```
