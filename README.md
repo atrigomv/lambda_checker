@@ -80,3 +80,6 @@ In order to give the exact permissions to the script, it is needed to create a n
 
 ### Output
 ![Image01](/image01.PNG)
+
+### About the author
+[Alvaro Trigo](https://atrigomv.github.io/) (MAPFRE Security Team)
