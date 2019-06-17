@@ -9,10 +9,13 @@ Lambda Checker is a simple Python script, based on official AWS Boto3 Python SDK
   * _VPC Lambda's configuration_
   * _Permissions and configuration of the role associated to the Lambda_
   * _Insecure HTTP requests_
+  * _Detection of personal data (spanish)_
 
-* Code Security issues (only for Python functions):
+* Code Security issues (all languages):
   * _Hardcoded credentials_
   * _Hardcoded directories_
+  
+* Code Security issues (only for Python functions):
   * _Use of insecure libraries_
   * _Use of insecure ciphers_
   * _Use of insecure algorithms_
