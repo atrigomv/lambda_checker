@@ -76,7 +76,7 @@ In order to give the exact permissions to the script, it is needed to create a n
 ### Basic usage
 #### Assessment of one function
 ```
-./lambda_checker.py -f <LAMBDA_FUNCTION_NAME>
+./lambda_checker.py -f <LAMBDA_FUNCTION_NAME> -v
 ```
 #### Assessment of all functions associated to the AWS account
 ``````
