@@ -62,10 +62,11 @@ In order to give the exact permissions to the script, it is needed to create a n
             "Effect": "Allow",
             "Action": [
                 "iam:GetPolicyVersion",
-                "lambda:ListFunctions",
                 "iam:ListPolicyVersions",
+                "lambda:ListFunctions",
+                "iam:ListAttachedRolePolicies",
                 "lambda:GetFunction",
-                "iam:ListAttachedRolePolicies"
+                "iam:ListRolePolicies"
             ],
             "Resource": "*"
         }
