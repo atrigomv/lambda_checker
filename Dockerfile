@@ -9,14 +9,14 @@ RUN addgroup -g ${USERID} ${USERNAME} && \
     pip3 install --upgrade pip && \
     pip install awscli boto3
 
-RUN git clone https://github.com/paradigmadigital/lambda_checker
+RUN git clone https://github.com/atrigomv/lambda_checker 
 
 RUN chown -R ${USERNAME} lambda_checker/
 
-RUN chmod +x lambda_checker/lambda_checker.py
+RUN chmod +x lambda_checker/lambda_checker3.py
 
 USER ${USERNAME}
 
 WORKDIR /lambda_checker
 
-ENTRYPOINT ["./lambda_checker.py"]
+ENTRYPOINT ["./lambda_checker3.py"]
