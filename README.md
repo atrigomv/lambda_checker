@@ -24,6 +24,8 @@ Lambda Checker is a simple Python script, based on official AWS Boto3 Python SDK
 
 The results are shown as CSV report and command-line and they are classified as "Info", "Low", "Medium" or "High" risk severity. The use of this tool is complementary to the use of others and it is highly recommended the use of pure SAST solutions which can gives widest results.
 
+Lambda Checker is a personal project that now will improve its features thanks to the collaboration of [Paradigma Solutions](https://www.paradigmadigital.com/) on its maintenance. As a result of this, the script has two versions (Python2 original script and Python3 script dubbed "lambda_checker3.py") and could be used within a docker container.
+
 ### Installation and environment configuration
 In order to install the tool, you can clone the git repository or download the [Python script](https://github.com/atrigomv/lambda_checker/blob/master/lambda_checker.py):
 ```
